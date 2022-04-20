@@ -1,0 +1,84 @@
+[Company]
+    name = 'Company / Organization'
+    id = 'COMPANY'
+    icon = 'iconlib/AS/locations/building5_g.gif'
+    type = 'L'
+    tier = 1
+[Division]
+    name = 'Division'
+    id = 'DIVISION'
+    icon = 'iconlib/AS/locations/buildingtall_g.gif'
+    type = 'L'
+    tier = 2
+[Site]
+    name = 'Site'
+    id = 'SITE'
+    icon = 'iconlib/CL/locations/factory_g.gif'
+    type = 'L'
+    tier = 3
+[Hub]
+    name = 'Hub'
+    id = 'HUB'
+    icon = 'iconlib/AS/locations/facility2_g.gif'
+    type = 'L'
+    tier = 4
+[CompressorStation]
+    name = 'Compressor Station'
+    id = 'COMPSTATION'
+    icon = 'iconlib/CL/locations/building2_g.gif'
+    type = 'L'
+    tier = 4
+[Area]
+    name = 'Area'
+    id = 'AREA'
+    icon = 'iconlib/CL/symbols/worldxp_g.gif'
+    type = 'L'
+    tier = 5
+[SubArea]
+name = 'Sub-Area'
+id = 'SUBAREA'
+icon = 'iconlib/CL/rooms/monitorxp2_g.gif'
+type = 'L'
+tier = 6
+[Piping]
+name = 'Piping'
+id = 'PIPING'
+icon = 'iconlib/CL/equipment/conveyoricon_g.gif'
+type = 'L'
+tier = 6
+[Skid]
+name = 'Skid'
+id = 'SK'
+icon = 'iconlib/CL/rooms/room1_g.gif'
+type = 'L'
+tier = 7
+[Vessel]
+name = 'Vessel'
+id = 'V'
+icon = 'iconlib/CL/classifications/cylindar_g.gif'
+type = 'A'
+tier = 7
+[EmergencyShutdownValve]
+name = 'Emergency Shutdown Valve'
+id = 'ESDV'
+icon = 'iconlib/CL/symbols/stop_g.gif'
+type = 'A'
+tier = 7
+[Filter]
+name = 'Filter'
+id = 'F'
+icon = 'iconlib/CL/classifications/meter3_g.gif'
+type = 'A'
+tier = 7
+[Pump]
+name = 'Pump'
+id = 'P'
+icon = 'iconlib/CL/classifications/equip2_g.gif'
+type = 'A'
+tier = 7
+[PigReceiver]
+name = 'Pig Receiver'
+id = 'PR'
+icon = 'iconlib/CL/classifications/toilet2_g.gif'
+type = 'A'
+tier = 7

@@ -1,0 +1,384 @@
+[Milton]
+    name = 'Milton'
+    abv = 'MIL'
+    group = 2
+    [[Milton.inlet_area]]
+    area_name = 'Milton Inlet Area'
+    area_no = 1
+    pages = ['MP-PID-1101','MP-PID-1101A','MP-PID-1102','MP-PID-1103','MP-PID-1103A','MP-PID-1103B','MP-PID-1103C','MP-PID-1103D']
+    pages_idx = [1,2,3,4,5,6,7,8]
+    equipment = ['PR-1302','PR-1303','F-1701','F-1702','F-1703','V-1401','V-1402','F-1704','P-1601A','P-1601B','C-1711']
+    [[Milton.compression_area]]
+    area_name = 'Milton Inlet Compression Area'
+    area_no = 2
+    pages = ['MP-PID-1201','MP-PID-1201A','MP-PID-1201B','MP-PID-1202','MP-PID-1202A','MP-PID-1202B','MP-PID-1202C','MP-PID-1202D','MP-PID-1202E','MP-PID-1202F','MP-PID-1202G','MP-PID-1202H','MP-PID-1202J','MP-PID-1202K']
+    pages_idx = [9,10,11,12,13,14,15,16,17,18,19,20,21,22]
+    equipment = []
+    [[Milton.h2s_treatment_area]]
+    area_name = 'Milton H2S Treatment Area'
+    area_no = 3
+    pages = ['MP-PID-1301','MP-PID-1302A','MP-PID-1302B','MP-PID-1303']
+    pages_idx = [23,24,25,26]
+    equipment = []
+    [[Milton.process_area]]
+    area_name = 'Milton Process Area'
+    area_no = 3
+    pages = ['MP-PID-1303','MP-PID-1304','MP-PID-1305','MP-PID-1306','MP-PID-1307','MP-PID-1308','MP-PID-1309','MP-PID-1310','MP-PID-1311','MP-PID-1312','MP-PID-1313','MP-PID-1314','MP-PID-1315','MP-PID-1316','MP-PID-1317','MP-PID-1318','MP-PID-1319','MP-PID-1320','MP-PID-1321','MP-PID-1321A','MP-PID-1321B','MP-PID-1321C','MP-PID-1321D','MP-PID-1321E','MP-PID-1322','MP-PID-1323','MP-PID-1324','MP-PID-1325']
+    pages_idx = [27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54]
+    equipment = []
+    [[Milton.outlet_area]]
+    area_name = 'Milton Outlet Area'
+    area_no = 4
+    pages = ['MP-PID-1401','MP-PID-1402','MP-PID-1402A']
+    pages_idx = [55,56,57]
+    equipment = []
+    [[Milton.utilities_area]]
+    area_name = 'Milton Utilities Area'
+    area_no = 5
+    pages = ['MP-PID-1501','MP-PID-1501A','MP-PID-1502','MP-PID-1503','MP-PID-1504','MP-PID-1505','MP-PID-1505A']
+    pages_idx = [58,59,60,61,62,63,64]
+    equipment = []
+    [[Milton.refrigeration_area]]
+    area_name = 'Milton Refrigeration Area'
+    area_no = 6
+    pages = ['MP-PID-1601','MP-PID-1601A','MP-PID-1601B','MP-PID-1601C','MP-PID-1601D','MP-PID-1601E','MP-PID-1601F','MP-PID-1602','MP-PID-1603','MP-PID-1604','MP-PID-1605']
+    pages_idx = [65,66,67,68,69,70,71,72,73,74,75]
+    equipment = []
+    [[Milton.instrument_air_area]]
+    area_name = 'Milton Instrument Air Area'
+    area_no = 7
+    pages = ['MP-PID-1701']
+    pages_idx = [76]
+    equipment = []
+    [[Milton.fuel_gas_area]]
+    area_name = 'Milton Fuel Gas Area'
+    area_no = 8
+    pages = ['MP-PID-1801','MP-PID-1802']
+    pages_idx = [77,78]
+    equipment = []
+    [[Milton.product_storage_area]]
+    area_name = 'Milton Product Storage Area'
+    area_no = 9
+    pages = ['MP-PID-1901','MP-PID-1902','MP-PID-1903','MP-PID-1904','MP-PID-1910','MP-PID-1911']
+    pages_idx = [79,80,81,82,83,84]
+    equipment = []
+[Marshall]
+    name = 'Marshall'
+    abv = 'MAR'
+    group = 2
+    [[Marshall.inlet_area]]
+    area_name = 'Marshall Inlet Area'
+    area_no = 1
+    pages = ['EF-PID-1101','EF-PID-1101A','EF-PID-1102','EF-PID-1103','EF-PID-1103A','EF-PID-1103B','EF-PID-1103C','EF-PID-1103D']
+    pages_idx = [1,2,3,4,5,6,7,8]
+    equipment = []
+    [[Marshall.compression_area]]
+    area_name = 'Marshall Inlet Compression Area'
+    area_no = 2
+    pages = ['EF-PID-1201','EF-PID-1201A','EF-PID-1201B','EF-PID-1202','EF-PID-1202A','EF-PID-1202B','EF-PID-1202C','EF-PID-1202D','EF-PID-1202E','EF-PID-1202F','EF-PID-1202G','EF-PID-1202H','EF-PID-1202J','EF-PID-1202K']
+    pages_idx = [9,10,11,12,13,14,15,16,17,18,19,20,21,22]
+    equipment = []
+    [[Marshall.h2s_treatment_area]]
+    area_name = 'Marshall H2S Treatment Area'
+    area_no = 3
+    pages = ['EF-PID-1301','EF-PID-1302A','EF-PID-1302B','EF-PID-1303']
+    pages_idx = [23,24,25,26]
+    equipment = []
+    [[Marshall.process_area]]
+    area_name = 'Marshall Process Area'
+    area_no = 3
+    pages = ['EF-PID-1303','EF-PID-1304','EF-PID-1305','EF-PID-1306','EF-PID-1307','EF-PID-1308','EF-PID-1309','EF-PID-1310','EF-PID-1311','EF-PID-1312','EF-PID-1313','EF-PID-1314','EF-PID-1315','EF-PID-1316','EF-PID-1317','EF-PID-1318','EF-PID-1319','EF-PID-1320','EF-PID-1321','EF-PID-1321A','EF-PID-1321B','EF-PID-1321C','EF-PID-1321D','EF-PID-1321E','EF-PID-1322','EF-PID-1323','EF-PID-1324','EF-PID-1325']
+    pages_idx = [27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54]
+    equipment = []
+    [[Marshall.outlet_area]]
+    area_name = 'Marshall Outlet Area'
+    area_no = 4
+    pages = ['EF-PID-1401','EF-PID-1402','EF-PID-1402A']
+    pages_idx = [55,56,57]
+    equipment = []
+    [[Marshall.utilities_area]]
+    area_name = 'Marshall Utilities Area'
+    area_no = 5
+    pages = ['EF-PID-1501','EF-PID-1501A','EF-PID-1502','EF-PID-1503','EF-PID-1504','EF-PID-1505','EF-PID-1505A']
+    pages_idx = [58,59,60,61,62,63,64]
+    equipment = []
+    [[Marshall.refrigeration_area]]
+    area_name = 'Marshall Refrigeration Area'
+    area_no = 6
+    pages = ['EF-PID-1601','EF-PID-1601A','EF-PID-1601B','EF-PID-1601C','EF-PID-1601D','EF-PID-1601E','EF-PID-1601F','EF-PID-1602','EF-PID-1603','EF-PID-1604','EF-PID-1605']
+    pages_idx = [65,66,67,68,69,70,71,72,73,74,75]
+    equipment = []
+    [[Marshall.instrument_air_area]]
+    area_name = 'Marshall Instrument Air Area'
+    area_no = 7
+    pages = ['EF-PID-1701']
+    pages_idx = [76]
+    equipment = []
+    [[Marshall.fuel_gas_area]]
+    area_name = 'Marshall Fuel Gas Area'
+    area_no = 8
+    pages = ['EF-PID-1801','EF-PID-1802']
+    pages_idx = [77,78]
+    equipment = []
+    [[Marshall.product_storage_area]]
+    area_name = 'Marshall Product Storage Area'
+    area_no = 9
+    pages = ['EF-PID-1901','EF-PID-1902','EF-PID-1903','EF-PID-1904','EF-PID-1910','EF-PID-1911']
+    pages_idx = [79,80,81,82,83,84]
+    equipment = []
+[Shiner]
+    name = 'Shiner'
+    abv = 'SHI'
+    group = 1
+    [[Shiner.inlet_area]]
+    area_name = 'Shiner Inlet Area'
+    area_no = 1
+    pages = ['SHNR-PID-1101','SHNR-PID-1101A','SHNR-PID-1102','SHNR-PID-1103','SHNR-PID-1103A','SHNR-PID-1103B','SHNR-PID-1103C','SHNR-PID-1103D','SHNR-PID-1104']
+    pages_idx = [2,3,4,5,6,7,8,9,10]
+    equipment = []
+    [[Shiner.compression_area]]
+    area_name = 'Shiner Inlet Compression Area'
+    area_no = 2
+    pages = ['SHNR-PID-1201','SHNR-PID-1201A','SHNR-PID-1201B','SHNR-PID-1202','SHNR-PID-1202A','SHNR-PID-1202B','SHNR-PID-1202C','SHNR-PID-1202D','SHNR-PID-1202E','SHNR-PID-1202F','SHNR-PID-1202G','SHNR-PID-1202H','SHNR-PID-1202J','SHNR-PID-1202K', 'SHNR-PID-1203']
+    pages_idx = [11,12,13,14,15,16,17,18,19,20,21,22,23,24,25]
+    equipment = []
+    [[Shiner.h2s_treatment_area]]
+    area_name = 'Shiner H2S Treatment Area'
+    area_no = 3
+    pages = ['SHNR-PID-1301','SHNR-PID-1302A','SHNR-PID-1302B','SHNR-PID-1303']
+    pages_idx = [26,27,28,29]
+    equipment = []
+    [[Shiner.process_area]]
+    area_name = 'Shiner Process Area'
+    area_no = 3
+    pages = ['SHNR-PID-1303','SHNR-PID-1304','SHNR-PID-1305','SHNR-PID-1306','SHNR-PID-1307','SHNR-PID-1308','SHNR-PID-1309','SHNR-PID-1310','SHNR-PID-1311','SHNR-PID-1312','SHNR-PID-1313','SHNR-PID-1314','SHNR-PID-1315','SHNR-PID-1316','SHNR-PID-1317','SHNR-PID-1318','SHNR-PID-1319','SHNR-PID-1320','SHNR-PID-1321','SHNR-PID-1321A','SHNR-PID-1321B','SHNR-PID-1321C','SHNR-PID-1321D','SHNR-PID-1321E','SHNR-PID-1322','SHNR-PID-1323','SHNR-PID-1324','SHNR-PID-1325']
+    pages_idx = [30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57]
+    equipment = []
+    [[Shiner.outlet_area]]
+    area_name = 'Shiner Outlet Area'
+    area_no = 4
+    pages = ['SHNR-PID-1401','SHNR-PID-1402','SHNR-PID-1402A']
+    pages_idx = [58,59,60]
+    equipment = []
+    [[Shiner.utilities_area]]
+    area_name = 'Shiner Utilities Area'
+    area_no = 5
+    pages = ['SHNR-PID-1501','SHNR-PID-1501A','SHNR-PID-1502','SHNR-PID-1503','SHNR-PID-1504','SHNR-PID-1505','SHNR-PID-1505A']
+    pages_idx = [61,62,63,64,65,66,67]
+    equipment = []
+    [[Shiner.refrigeration_area]]
+    area_name = 'Shiner Refrigeration Area'
+    area_no = 6
+    pages = ['SHNR-PID-1601','SHNR-PID-1601A','SHNR-PID-1601B','SHNR-PID-1601C','SHNR-PID-1601D','SHNR-PID-1601E','SHNR-PID-1601F','SHNR-PID-1602','SHNR-PID-1603','SHNR-PID-1604','SHNR-PID-1605']
+    pages_idx = [68,69,70,71,72,73,74,75,76,78,79]
+    equipment = []
+    [[Shiner.instrument_air_area]]
+    area_name = 'Shiner Instrument Air Area'
+    area_no = 7
+    pages = ['SHNR-PID-1701']
+    pages_idx = [80]
+    equipment = []
+    [[Shiner.fuel_gas_area]]
+    area_name = 'Shiner Fuel Gas Area'
+    area_no = 8
+    pages = ['SHNR-PID-1801','SHNR-PID-1802']
+    pages_idx = [81,82]
+    equipment = []
+    [[Shiner.product_storage_area]]
+    area_name = 'Shiner Product Storage Area'
+    area_no = 9
+    pages = ['SHNR-PID-1901','SHNR-PID-1902','SHNR-PID-1903','SHNR-PID-1904','SHNR-PID-1910','SHNR-PID-1911']
+    pages_idx = [83,84,85,86,87,88]
+    equipment = []
+[Smiley]
+    name = 'Smiley'
+    abv = 'SMI'
+    group = 1
+    [[Smiley.inlet_area]]
+    area_name = 'Smiley Inlet Area'
+    area_no = 1
+    pages = ['SMLY-PID-1101','SMLY-PID-1101A','SMLY-PID-1102','SMLY-PID-1103','SMLY-PID-1103A','SMLY-PID-1103B','SMLY-PID-1103C','SMLY-PID-1103D','SMLY-PID-1104']
+    pages_idx = [2,3,4,5,6,7,8,9,10]
+    equipment = []
+    [[Smiley.compression_area]]
+    area_name = 'Smiley Inlet Compression Area'
+    area_no = 2
+    pages = ['SMLY-PID-1201','SMLY-PID-1201A','SMLY-PID-1201B','SMLY-PID-1202','SMLY-PID-1202A','SMLY-PID-1202B','SMLY-PID-1202C','SMLY-PID-1202D','SMLY-PID-1202E','SMLY-PID-1202F','SMLY-PID-1202G','SMLY-PID-1202H','SMLY-PID-1202J','SMLY-PID-1202K', 'SMLY-PID-1203']
+    pages_idx = [11,12,13,14,15,16,17,18,19,20,21,22,23,24,25]
+    equipment = []
+    [[Smiley.h2s_treatment_area]]
+    area_name = 'Smiley H2S Treatment Area'
+    area_no = 3
+    pages = ['SMLY-PID-1301','SMLY-PID-1302A','SMLY-PID-1302B','SMLY-PID-1303']
+    pages_idx = [26,27,28,29]
+    equipment = []
+    [[Smiley.process_area]]
+    area_name = 'Smiley Process Area'
+    area_no = 3
+    pages = ['SMLY-PID-1303','SMLY-PID-1304','SMLY-PID-1305','SMLY-PID-1306','SMLY-PID-1307','SMLY-PID-1308','SMLY-PID-1309','SMLY-PID-1310','SMLY-PID-1311','SMLY-PID-1312','SMLY-PID-1313','SMLY-PID-1314','SMLY-PID-1315','SMLY-PID-1316','SMLY-PID-1317','SMLY-PID-1318','SMLY-PID-1319','SMLY-PID-1320','SMLY-PID-1321','SMLY-PID-1321A','SMLY-PID-1321B','SMLY-PID-1321C','SMLY-PID-1321D','SMLY-PID-1321E','SMLY-PID-1322','SMLY-PID-1323','SMLY-PID-1324','SMLY-PID-1325']
+    pages_idx = [30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57]
+    equipment = []
+    [[Smiley.outlet_area]]
+    area_name = 'Smiley Outlet Area'
+    area_no = 4
+    pages = ['SMLY-PID-1401','SMLY-PID-1402','SMLY-PID-1402A']
+    pages_idx = [58,59,60]
+    equipment = []
+    [[Smiley.utilities_area]]
+    area_name = 'Smiley Utilities Area'
+    area_no = 5
+    pages = ['SMLY-PID-1501','SMLY-PID-1501A','SMLY-PID-1502','SMLY-PID-1503','SMLY-PID-1504','SMLY-PID-1505','SMLY-PID-1505A']
+    pages_idx = [61,62,63,64,65,66,67]
+    equipment = []
+    [[Smiley.refrigeration_area]]
+    area_name = 'Smiley Refrigeration Area'
+    area_no = 6
+    pages = ['SMLY-PID-1601','SMLY-PID-1601A','SMLY-PID-1601B','SMLY-PID-1601C','SMLY-PID-1601D','SMLY-PID-1601E','SMLY-PID-1601F','SMLY-PID-1602','SMLY-PID-1603','SMLY-PID-1604','SMLY-PID-1605']
+    pages_idx = [68,69,70,71,72,73,74,75,76,78,79]
+    equipment = []
+    [[Smiley.instrument_air_area]]
+    area_name = 'Smiley Instrument Air Area'
+    area_no = 7
+    pages = ['SMLY-PID-1701']
+    pages_idx = [80]
+    equipment = []
+    [[Smiley.fuel_gas_area]]
+    area_name = 'Smiley Fuel Gas Area'
+    area_no = 8
+    pages = ['SMLY-PID-1801','SMLY-PID-1802']
+    pages_idx = [81,82]
+    equipment = []
+    [[Smiley.product_storage_area]]
+    area_name = 'Smiley Product Storage Area'
+    area_no = 9
+    pages = ['SMLY-PID-1901','SMLY-PID-1902','SMLY-PID-1903','SMLY-PID-1904','SMLY-PID-1910','SMLY-PID-1911']
+    pages_idx = [83,84,85,86,87,88]
+    equipment = []
+[Lyssy]
+    name = 'Lyssy'
+    abv = 'LYS'
+    group = 1
+    [[Lyssy.inlet_area]]
+    area_name = 'Lyssy Inlet Area'
+    area_no = 1
+    pages = ['LP-PID-1100','LP-PID-1101','LP-PID-1102','LP-PID-1103','LP-PID-1103A','LP-PID-1103B','LP-PID-1103C','LP-PID-1103D']
+    pages_idx = [2,3,4,5,6,7,8,9]
+    equipment = []
+    [[Lyssy.compression_area]]
+    area_name = 'Lyssy Inlet Compression Area'
+    area_no = 2
+    pages = ['LP-PID-1200','LP-PID-1201','LP-PID-1201A','LP-PID-1202','LP-PID-1202A','LP-PID-1202B','LP-PID-1202C','LP-PID-1202D','LP-PID-1202E','LP-PID-1202F','LP-PID-1202G','LP-PID-1202H','LP-PID-1202J','LP-PID-1202K', 'LP-PID-1203']
+    pages_idx = [10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+    equipment = []
+    [[Lyssy.h2s_treatment_area]]
+    area_name = 'Lyssy H2S Treatment Area'
+    area_no = 3
+    pages = ['LP-PID-1301','LP-PID-1302A','LP-PID-1302B','LP-PID-1303']
+    pages_idx = [25,26,27,28]
+    equipment = []
+    [[Lyssy.process_area]]
+    area_name = 'Lyssy Process Area'
+    area_no = 3
+    pages = ['LP-PID-1303','LP-PID-1304','LP-PID-1305','LP-PID-1306','LP-PID-1307','LP-PID-1308','LP-PID-1309','LP-PID-1310','LP-PID-1311','LP-PID-1312','LP-PID-1313','LP-PID-1314','LP-PID-1315','LP-PID-1316','LP-PID-1317','LP-PID-1318','LP-PID-1319','LP-PID-1320','LP-PID-1321','LP-PID-1321A','LP-PID-1321B','LP-PID-1321C','LP-PID-1321D','LP-PID-1321E','LP-PID-1322','LP-PID-1323','LP-PID-1324','LP-PID-1325']
+    pages_idx = [29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56]
+    equipment = []
+    [[Lyssy.outlet_area]]
+    area_name = 'Lyssy Outlet Area'
+    area_no = 4
+    pages = ['LP-PID-1401','LP-PID-1402']
+    pages_idx = [57,58]
+    equipment = []
+    [[Lyssy.utilities_area]]
+    area_name = 'Lyssy Utilities Area'
+    area_no = 5
+    pages = ['LP-PID-1501','LP-PID-1501A','LP-PID-1502','LP-PID-1503','LP-PID-1504','LP-PID-1505','LP-PID-1505A']
+    pages_idx = [59,60,61,62,63,64,65]
+    equipment = []
+    [[Lyssy.refrigeration_area]]
+    area_name = 'Lyssy Refrigeration Area'
+    area_no = 6
+    pages = ['LP-PID-1601','LP-PID-1601A','LP-PID-1601B','LP-PID-1601C','LP-PID-1601D','LP-PID-1601E','LP-PID-1601F','LP-PID-1602','LP-PID-1603','LP-PID-1604','LP-PID-1605']
+    pages_idx = [66,67,68,69,70,71,72,73,74,75,76]
+    equipment = []
+    [[Lyssy.instrument_air_area]]
+    area_name = 'Lyssy Instrument Air Area'
+    area_no = 7
+    pages = ['LP-PID-1701']
+    pages_idx = [77]
+    equipment = []
+    [[Lyssy.fuel_gas_area]]
+    area_name = 'Lyssy Fuel Gas Area'
+    area_no = 8
+    pages = ['LP-PID-1801','LP-PID-1801A','LP-PID-1802']
+    pages_idx = [78,79,81]
+    equipment = []
+    [[Lyssy.product_storage_area]]
+    area_name = 'Lyssy Product Storage Area'
+    area_no = 9
+    pages = ['LP-PID-1901','LP-PID-1902','LP-PID-1903','LP-PID-1904','LP-PID-1910','LP-PID-1911']
+    pages_idx = [82,83,84,85,86,87]
+    equipment = []
+[Titan]
+    name = 'Titan'
+    abv = 'TIT'
+    group = 3
+    [[Titan.inlet_area]]
+    area_name = 'Titan Inlet Area'
+    area_no = 1
+    pages = ['TTN-PID-1100','TTN-PID-1101','TTN-PID-1102','TTN-PID-1103','TTN-PID-1103A','TTN-PID-1104','TTN-PID-1105']
+    pages_idx = [1,2,3,4,5,7,8]
+    equipment = []
+    [[Titan.compression_area]]
+    area_name = 'Titan Inlet Compression Area'
+    area_no = 2
+    pages = ['TTN-PID-1201','TTN-PID-1201A','TTN-PID-1201B','TTN-PID-1202','TTN-PID-1202A','TTN-PID-1202B','TTN-PID-1202C','TTN-PID-1202D','TTN-PID-1202E','TTN-PID-1202F','TTN-PID-1202G','TTN-PID-1202H','TTN-PID-1202J','TTN-PID-1202K','TTN-PID-1202L','TTN-PID-1203','TTN-PID-1204']
+    pages_idx = [9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25]
+    equipment = []
+    [[Titan.h2s_treatment_area]]
+    area_name = 'Titan H2S Treatment Area'
+    area_no = 3
+    pages = ['TTN-PID-1210','TTN-PID-1301A','TTN-PID-1301B','TTN-PID-1303']
+    pages_idx = [26,27,28,29]
+    equipment = []
+    [[Titan.process_area]]
+    area_name = 'Titan Process Area'
+    area_no = 3
+    pages = ['TTN-PID-1303','TTN-PID-1304','TTN-PID-1305','TTN-PID-1306','TTN-PID-1307','TTN-PID-1308','TTN-PID-1309','TTN-PID-1310','TTN-PID-1311','TTN-PID-1312','TTN-PID-1313','TTN-PID-1314','TTN-PID-1315','TTN-PID-1316','TTN-PID-1317','TTN-PID-1318','TTN-PID-1319','TTN-PID-1320','TTN-PID-1321','TTN-PID-1322','TTN-PID-1323','TTN-PID-1324','TTN-PID-1325','TTN-PID-1325A','TTN-PID-1325B','TTN-PID-1325C','TTN-PID-1325D','TTN-PID-1325E','TTN-PID-1327']
+    pages_idx = [30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58]
+    equipment = []
+    [[Titan.outlet_area]]
+    area_name = 'Titan Outlet Area'
+    area_no = 4
+    pages = ['TTN-PID-1401','TTN-PID-1402','TTN-PID-1403','TTN-PID-1403A']
+    pages_idx = [59,60,61,62]
+    equipment = []
+    [[Titan.utilities_area]]
+    area_name = 'Titan Utilities Area'
+    area_no = 5
+    pages = ['TTN-PID-1501','TTN-PID-1501A','TTN-PID-1502','TTN-PID-1503','TTN-PID-1504','TTN-PID-1504A','TTN-PID-1504B','TTN-PID-1504C','TTN-PID-1504D','TTN-PID-1505A','TTN-PID-1505B','TTN-PID-1506']
+    pages_idx = [63,64,65,66,67,68,69,70,71,72,73,74]
+    equipment = []
+    [[Titan.refrigeration_area]]
+    area_name = 'Titan Refrigeration Area'
+    area_no = 6
+    pages = ['TTN-PID-1601','TTN-PID-1601A','TTN-PID-1601B','TTN-PID-1601C','TTN-PID-1601D','TTN-PID-1601E','TTN-PID-1601F','TTN-PID-1602','TTN-PID-1603','TTN-PID-1604','TTN-PID-1606','TTN-PID-1607']
+    pages_idx = [75,76,77,78,79,80,81,82,83,84,85,86]
+    equipment = []
+    [[Titan.instrument_air_area]]
+    area_name = 'Titan Instrument Air Area'
+    area_no = 7
+    pages = ['TTN-PID-1701']
+    pages_idx = [87]
+    equipment = []
+    [[Titan.fuel_gas_area]]
+    area_name = 'Titan Fuel Gas Area'
+    area_no = 8
+    pages = ['TTN-PID-1801','TTN-PID-1802','TTN-PID-1803','TTN-PID-1804']
+    pages_idx = [88,89,90,91]
+    equipment = []
+    [[Titan.product_storage_area]]
+    area_name = 'Titan Product Storage Area'
+    area_no = 9
+    pages = ['TTN-PID-1901','TTN-PID-1902','TTN-PID-1903','TTN-PID-1904','TTN-PID-1905','TTN-PID-1906','TTN-PID-1910','TTN-PID-1911']
+    pages_idx = [92,93,94,95,96,97,98,99]
+    equipment = []

@@ -9,7 +9,5 @@ with open("src/__init__.py", encoding="utf8") as f:
 
 setup(
     version=version,
-    description=(
-        "A program used to assit inventory and maintenance management"
-    ),
+    description=("A program used to assit inventory and maintenance management"),
 )
